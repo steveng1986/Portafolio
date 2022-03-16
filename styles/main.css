@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Lato:wght@400;700&family=Lobster&family=Roboto:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
-h1 {
+.title {
   font-family: "Roboto", sans-serif;
+}
+
+.portafolio {
+  display: grid;
+}
+
+.portafolio-carpetas {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-template-rows: repeat(3 1fr);
 }
 
 /*# sourceMappingURL=main.css.map */
