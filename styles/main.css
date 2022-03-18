@@ -5,11 +5,15 @@
 
 .portafolio {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 120px;
+  grid-gap: 15px;
+  background-repeat: no-repeat;
 }
 
-.portafolio-carpetas {
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  grid-template-rows: repeat(3 1fr);
+.portafolio-carpetas__img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
